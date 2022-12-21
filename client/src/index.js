@@ -1,6 +1,10 @@
+import React from 'react';
+import * as ReactDOM from 'react-dom/client';
+import App from './App';
 import './index.scss';
 import './another.scss';
 
-const root = document.getElementById("react-root");
+const container = document.getElementById("react-root");
 
-root.onclick = (event) => console.log(event);
+const root = ReactDOM.createRoot(container);
+root.render(<App />);
