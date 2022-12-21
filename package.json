@@ -1,0 +1,11 @@
+{
+  "name": "crafter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install_all": "cd client && npm install && cd .. && cd server && npm install && cd .."
+  },
+  "author": "",
+  "license": "ISC"
+}
