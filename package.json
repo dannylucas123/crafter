@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install_all": "cd client && npm install && cd .. && cd server && npm install && cd .."
+    "install_all": "npm install && cd client && npm install && cd .. && cd server && npm install && cd .."
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-react-app": "^7.0.1"
+  }
 }
