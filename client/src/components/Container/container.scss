@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+
+  height: calc(100vh - 20px);
+  width: calc(100vw - 20px);
+  &.node-container {
+    justify-content: center;
+  }
+}
