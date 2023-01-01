@@ -1,18 +1,18 @@
 import React from 'react';
 import Container from './components/Container/Container';
-import { decodeProfile } from './parse/profile';
+import { constructProfile, decodeProfile, profile } from './parse/profile';
 import { getProfileFromURL } from './parse/url';
 import Armorsmith from './templates/blacksmithing/Armorsmith';
 
-const profile = decodeProfile(getProfileFromURL());
+// const profile = decodeProfile(getProfileFromURL());
 
 const App = () => {
-  console.log(profile);
+  console.log(constructProfile(profile));
 
 
   return (
     <main>
-      <Armorsmith />
+      {/* <Armorsmith /> */}
     </main>
   );
 };

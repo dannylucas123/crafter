@@ -9,8 +9,6 @@ module.exports = {
     'import/resolver': {
       node: {
         extensions: [
-          '.ts',
-          '.tsx',
           '.js',
           '.jsx',
         ],
